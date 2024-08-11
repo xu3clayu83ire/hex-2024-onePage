@@ -9,12 +9,12 @@
             </div>
             <div class="row">
                 <div class="col-lg-4">
-                    <img src="../../assets/images/PersonalWeb2024/Rectangle 10.png" class="">
+                    <img src="../../assets/images/PersonalWeb2024/Rectangle 10.png" class="img-fluid">
                 </div>
                 <div class="col">
                     <div class="row mb-7">
                         <div class="col-lg-3">
-                            <img src="../../assets/images/PersonalWeb2024/Rectangle 15.png" class="">
+                            <img src="../../assets/images/PersonalWeb2024/Rectangle 15.png" class="img-fluid">
                         </div>
                         <div class="col">
                             <div class="d-lg-flex flex-column h-100">

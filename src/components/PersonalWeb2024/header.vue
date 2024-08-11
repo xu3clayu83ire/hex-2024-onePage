@@ -3,16 +3,16 @@
         <div class="container">
             <ul class="navbarNav d-flex align-items-center justify-content-around">
                 <li class="py-9">
-                    <a class="text-pr-secondary">WILLIAM LEE</a>
+                    <a class="text-pr-secondary" role="button">WILLIAM LEE</a>
                 </li>
                 <li class="py-9">
-                    <a class="text-pr-secondary">BASED IN TAIWAN</a>
+                    <a class="text-pr-secondary" role="button">BASED IN TAIWAN</a>
                 </li>
                 <li class="py-9">
-                    <a class="text-pr-secondary">CURRENTLY FRONT END <br>ENGINEER AT HEXSCHOOL</a>
+                    <a class="text-pr-secondary" role="button">CURRENTLY FRONT END <br>ENGINEER AT HEXSCHOOL</a>
                 </li>
                 <li class="py-9">
-                    <a class="text-pr-secondary">CONTACT ME</a>
+                    <a class="text-pr-secondary" role="button">CONTACT ME</a>
                 </li>
             </ul>
         </div>
