@@ -1,10 +1,11 @@
+@import"./fonts";
 @import "~/bootstrap/scss/functions";
 @import "./variables";
 @import "~/bootstrap/scss/maps";
 @import "~/bootstrap/scss/mixins";
 @import "~/bootstrap/scss/utilities";
 
-$all-colors: map-merge-multiple($resumes-colors, $personalWeb-colors);
+$all-colors: map-merge-multiple($resumes-colors, $personalWeb-colors, $grays);
 
 $utilities: map-merge($utilities,
         ("background-color": map-merge(map-get($utilities, "background-color"),
