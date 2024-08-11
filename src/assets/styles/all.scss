@@ -1,0 +1,29 @@
+@import "~/bootstrap/scss/functions";
+@import "./variables";
+@import "~/bootstrap/scss/maps";
+@import "~/bootstrap/scss/mixins";
+@import "~/bootstrap/scss/utilities";
+
+$all-colors: map-merge-multiple($resumes-colors, $personalWeb-colors);
+
+$utilities: map-merge($utilities,
+        ("background-color": map-merge(map-get($utilities, "background-color"),
+                (values: map-merge(map-get(map-get($utilities, "background-color"), "values"),
+                        ($all-colors ),
+                    ),
+                ),
+            ),
+        ));
+
+$utilities: map-merge($utilities,
+        ("color": map-merge(map-get($utilities, "color"),
+                (values: map-merge(map-get(map-get($utilities, "color"), "values"),
+                        ($all-colors ),
+                    ),
+                ),
+            ),
+        ));
+
+@import "bootstrap/scss/utilities/api";
+@import "~/bootstrap/scss/bootstrap";
+@import "./custom";
