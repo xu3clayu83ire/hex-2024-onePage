@@ -10,6 +10,17 @@
           <li class="list-group-item border-0">
             <!---->
             <div class="btn-group" role="group" aria-label="Basic outlined example">
+              <RouterLink class="btn btn-outline-primary" :to="{ name: 'Kata2024' }">
+                pixel perfect kata
+              </RouterLink>
+              <a href="https://cacoo.com/diagrams/pZ1jUCICb1t4bSVc/1AEDF?reload_rt=1620962199126_0"
+                class="btn btn-outline-primary">設計稿</a>
+            </div>
+            <!---->
+          </li>
+          <li class="list-group-item border-0">
+            <!---->
+            <div class="btn-group" role="group" aria-label="Basic outlined example">
               <RouterLink class="btn btn-outline-primary" :to="{ name: 'Resumes2024' }">
                 2024-個人履歷
               </RouterLink>
@@ -42,10 +53,9 @@
 </template>
 
 <script setup>
-  import { RouterLink } from "vue-router";
-  import header from "@/components/Home/header.vue";
-  import footer from "@/components/Home/footer.vue";
+import { RouterLink } from "vue-router";
+import header from "@/components/Home/header.vue";
+import footer from "@/components/Home/footer.vue";
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

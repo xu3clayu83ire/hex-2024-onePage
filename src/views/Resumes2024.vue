@@ -1,11 +1,9 @@
 <template>
   <div class="resumes2024">
     <header class="container">
-      <h1>
-        <p data-aos="fade-right">VITO</p>
-        <img data-aos="zoom-in" src="../assets/images/Resumes2024/vito.png" width="636" class="d-block mx-auto" alt="">
-        <p data-aos="fade-left" data-aos-offset="300" class="text-end">RESUME</p>
-      </h1>
+      <h1 data-aos="fade-right">VITO</h1>
+      <img data-aos="zoom-in" src="../assets/images/Resumes2024/vito.png" width="636" class="d-block mx-auto" alt="">
+      <h2 data-aos="fade-left" data-aos-offset="500" data-aos-duration="1500" class="text-end">RESUME</h2>
     </header>
     <section class="intro intro-bg">
       <div class="container">
@@ -99,7 +97,8 @@
 
 
 /* header */
-.resumes2024 header h1 {
+.resumes2024 header h1,
+.resumes2024 header h2 {
   font-size: 128px;
 }
 
