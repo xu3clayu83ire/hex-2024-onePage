@@ -2,38 +2,38 @@
     <div class="kata2024 container">
         <div class="kata-wrap">
             <div class="kata-content">
-                <div class="kata-items-wrap">
+                <ul class="kata-items-wrap">
                     <!---->
-                    <div class="kata-item">
+                    <li class="kata-item">
                         <img src="https://images.unsplash.com/photo-1723451119471-dff8dd414e80?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             width="96" height="96" alt="">
 
                         <div class="kata-item-textarea">
-                            <p class="title">
+                            <h2 class="title">
                                 Title Lorem..
-                            </p>
-                            <P class="text">
+                            </h2>
+                            <p class="text">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, odio dolorem molestiae
                                 quibusdam?
-                            </P>
+                            </p>
                         </div>
-                    </div>
+                    </li>
                     <!---->
-                    <div class="kata-item">
+                    <li class="kata-item">
                         <img src="https://images.unsplash.com/photo-1723451119471-dff8dd414e80?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                             width="96" height="96" alt="">
                         <div class="kata-item-textarea">
-                            <p class="title">
+                            <h2 class="title">
                                 Title Lorem..
-                            </p>
+                            </h2>
                             <P class="text">
                                 Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni, odio dolorem molestiae
                                 quibusdam?
                             </P>
                         </div>
-                    </div>
+                    </li>
                     <!---->
-                </div>
+                </ul>
                 <div>
                     <img src="https://images.unsplash.com/photo-1723451119471-dff8dd414e80?q=80&w=2564&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                         width="216" height="216" alt="">

@@ -2,7 +2,8 @@
   <div class="resumes2024">
     <header class="container">
       <h1 data-aos="fade-right">VITO</h1>
-      <img data-aos="zoom-in" src="../assets/images/Resumes2024/vito.png" width="636" class="d-block mx-auto" alt="">
+      <img data-aos="zoom-in" src="../assets/images/Resumes2024/vito.png" width="636" class="d-block mx-auto"
+        alt="VITORESUME">
       <h2 data-aos="fade-left" data-aos-offset="500" data-aos-duration="1500" class="text-end">RESUME</h2>
     </header>
     <section class="intro intro-bg">
@@ -20,25 +21,25 @@
         <li data-aos="fade-up" data-aos-offset="300" class="experience-item">
           <h2>Vito Evans</h2>
           <ul>
-            <li>456 Walnut Avenue, Someville, USA</li>
-            <li>+1 123 456 7890</li>
-            <li>info@hexschool.com</li>
-            <li>www.infohexschool.com</li>
+            <li class="mb-2">456 Walnut Avenue, Someville, USA</li>
+            <li class="mb-2"><a href="tel:+1 123 456 7890">+1 123 456 7890</a></li>
+            <li class="mb-2"><a href="mailto:info@hexschool.com">info@hexschool.com</a></li>
+            <li class="mb-2">www.infohexschool.com</li>
           </ul>
         </li>
         <!---->
         <li data-aos="fade-up" data-aos-offset="300" class="experience-item">
           <h2>Education</h2>
           <ul>
-            <li>
+            <li class="mb-4">
               <p class="experience-item-period">2014-2018</p>
               Bachelor of Science in Business Administration, University of California, Los Angeles
             </li>
-            <li>
+            <li class="mb-4">
               <p class="experience-item-period">2012-2014</p>
               Associate of Arts in Graphic Design, San Francisco State University
             </li>
-            <li>
+            <li class="mb-4">
               <p class="experience-item-period">2008-2012</p>
               High School Diploma, Lincoln High School
             </li>
@@ -48,15 +49,15 @@
         <li data-aos="fade-up" data-aos-offset="300" class="experience-item">
           <h2>Work</h2>
           <ul>
-            <li>
+            <li class="mb-4">
               <p class="experience-item-period">2018-2021</p>
               Marketing Manager, ABC Company
             </li>
-            <li>
+            <li class="mb-4">
               <p class="experience-item-period">2016-2018</p>
               Sales Associate, XYZ Corporation
             </li>
-            <li>
+            <li class="mb-4">
               <p class="experience-item-period">2014-2016</p>
               Customer Service Representative, QRS Inc.
             </li>
@@ -66,9 +67,9 @@
         <li data-aos="fade-up" data-aos-offset="300" class="experience-item">
           <h2>Awards</h2>
           <ul>
-            <li>Best in Show Award, National Advertising Awards, 2020</li>
-            <li>Honorable Mention, International Design Competition, 2019</li>
-            <li>People's Choice Award, Local Art Exhibition, 2018</li>
+            <li class="mb-3">Best in Show Award, National Advertising Awards, 2020</li>
+            <li class="mb-3">Honorable Mention, International Design Competition, 2019</li>
+            <li class="mb-3">People's Choice Award, Local Art Exhibition, 2018</li>
           </ul>
         </li>
         <!---->
@@ -92,6 +93,12 @@
   font-family: "Castoro", serif;
   font-weight: 400;
   font-style: normal;
+  /* line-height: 1.5; */
+}
+
+.resumes2024 h1,
+.resumes2024 h2,
+.resumes2024 p {
   line-height: 1.5;
 }
 
@@ -100,6 +107,11 @@
 .resumes2024 header h1,
 .resumes2024 header h2 {
   font-size: 128px;
+  letter-spacing: 0.12em;
+}
+
+.resumes2024 header h1 {
+  margin-top: 160px;
 }
 
 /* --==========-- */
@@ -144,9 +156,9 @@
   font-size: 24px;
 }
 
-.experience .experience-item ul>li:not(:last-child) {
+/* .experience .experience-item ul>li:not(:last-child) {
   margin-bottom: 8px;
-}
+} */
 
 .experience .experience-item .experience-item-period {
   font-size: 20px;
@@ -163,7 +175,7 @@
 }
 
 .resumes2024 .footer-content {
-  padding: 40px 0;
+  padding: 64px 0;
 }
 
 .resumes2024 footer img:not(:last-child) {
